@@ -1,0 +1,16 @@
+{
+  "name": "MyAlexandria",
+  "version": "0.0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["jquery.min.js", "background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Add to My Alexandria",
+    "default_icon": "alex_16x16.png"
+  },
+  "manifest_version": 2
+}
